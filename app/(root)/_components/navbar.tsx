@@ -29,7 +29,7 @@ export default function Navbar() {
         )
         }
         {
-          isAuthenticated && !isLoading && (
+          !isAuthenticated && !isLoading && (
             <>
               <SignInButton mode="modal">
                 <Button variant="ghost" size="sm">
